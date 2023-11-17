@@ -43,6 +43,7 @@ class MyApp extends StatelessWidget {
           "SignIn": (context) => SignInUser(),
           "SignUp": (context) => SignUp(),
         },
+        //this is the 2nd branch
         home: const ResponsiveLayout(
           webScreenLayout: WebScreenLayout(),
           mobileScreenLayout: MobileScreenLayout(),
