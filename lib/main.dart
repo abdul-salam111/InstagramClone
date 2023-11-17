@@ -37,11 +37,7 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-<<<<<<< Updated upstream
-        title: 'Instagram',
-=======
         title: 'Instagram application made by me',
->>>>>>> Stashed changes
         routes: {
           "HomeScreen": (context) => HomeScreen(),
           "SignIn": (context) => SignInUser(),
