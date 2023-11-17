@@ -41,7 +41,7 @@ class CommentsCard extends StatelessWidget {
       return commenTime;
     }
   }
-
+//new branch updated
   @override
   Widget build(BuildContext context) {
     final user = Provider.of<userProvider>(context).getUser;
@@ -98,7 +98,7 @@ class CommentsCard extends StatelessWidget {
                     width: 8,
                   ),
                   const Text(
-                    "Send this is new branch",
+                    "Send",
                     style: TextStyle(fontSize: 13),
                   )
                 ],
