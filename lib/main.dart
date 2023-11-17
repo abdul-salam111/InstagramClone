@@ -37,7 +37,11 @@ class MyApp extends StatelessWidget {
       ],
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
+<<<<<<< HEAD
         title: 'Instagram This is second branch',
+=======
+        title: 'Instagram this is new branch',
+>>>>>>> new-branch
         routes: {
           "HomeScreen": (context) => HomeScreen(),
           "SignIn": (context) => SignInUser(),
