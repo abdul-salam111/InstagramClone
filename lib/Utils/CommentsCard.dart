@@ -98,7 +98,7 @@ class CommentsCard extends StatelessWidget {
                     width: 8,
                   ),
                   const Text(
-                    "Send the new bracnhes are saved.",
+                    "Send this is new branch",
                     style: TextStyle(fontSize: 13),
                   )
                 ],
